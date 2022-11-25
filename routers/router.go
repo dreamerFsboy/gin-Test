@@ -1,7 +1,7 @@
 package routers
 
 import (
-	v1 "gin-Test/routers/api/v1"
+	"github.com/dreamerFsboy/gin-Test/routers/api/v1"
 
 	"github.com/dreamerFsboy/gin-Test/pkg/setting"
 
