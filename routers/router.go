@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/dreamerFsboy/gin-Test/routers/api/v1"
+	v1 "github.com/dreamerFsboy/gin-Test/routers/api/v_1"
 
 	"github.com/dreamerFsboy/gin-Test/pkg/setting"
 
@@ -20,9 +20,9 @@ func InitRouter() *gin.Engine {
 	apiv1 := r.Group("/api/v1")
 	{
 		apiv1.GET("/tags", v1.GetTags)
-		apiv1.GET("/tags", v1.AddTag)
-		apiv1.GET("/tags", v1.DeleteTags)
-		apiv1.GET("/tags", v1.EditTags)
+		apiv1.POST("/tags", v1.AddTags)
+		apiv1.PUT("/tags", v1.EditTags)
+		apiv1.DELETE("/tags", v1.DeleteTags)
 	}
 
 	return r

@@ -42,5 +42,5 @@ replace (
 	github.com/dreamerFsboy/gin-Test/pkg/setting => D:/go_path/src/gin-Test/pkg/setting
 	github.com/dreamerFsboy/gin-Test/pkg/util => D:/go_path/src/gin-Test/pkg/util
 	github.com/dreamerFsboy/gin-Test/routers => D:/go_path/src/gin-Test/routers
-	github.com/dreamerFsboy/gin-Test/routers/api/v1 => D:/go_path/gin-Test/routers/api/v1
+	github.com/dreamerFsboy/gin-Test/routers/api/v_1 => D:/go_path/gin-Test/routers/api/v_1
 )
