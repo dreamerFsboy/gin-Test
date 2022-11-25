@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/dreamerFsboy/gin-Test/pkg/setting v0.0.0-00010101000000-000000000000
+	github.com/dreamerFsboy/gin-Test/routers v0.0.0-00010101000000-000000000000
 	github.com/gin-gonic/gin v1.8.1
 	github.com/jinzhu/gorm v1.9.16
 	github.com/unknwon/com v1.0.1
